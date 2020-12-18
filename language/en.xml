@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en" languagename="English" countrycode="en">
+	<category name="wcf.jcoins.statement">
+		<item name="wcf.jcoins.statement.title.de.wcflabs.jcoins.statement.clan"><![CDATA[{CLAN_LANGUAGE_SG_NOMINATIVE|language}]]></item>
+		<item name="wcf.jcoins.statement.title.retractable.de.wcflabs.jcoins.statement.clan"><![CDATA[{CLAN_LANGUAGE_SG_NOMINATIVE|language} deleted]]></item>
+		<item name="wcf.jcoins.statement.reason.de.wcflabs.jcoins.statement.clan"><![CDATA[{if $statement->getObject()->clanID}Your {CLAN_LANGUAGE_SG_NOMINATIVE|language} “{$statement->getObject()->getTitle()}” was published.{else}A {CLAN_LANGUAGE_SG_NOMINATIVE|language} of yours was published, which was deleted in the meantime.{/if}]]></item>
+		<item name="wcf.jcoins.statement.reason.reverse.de.wcflabs.jcoins.statement.clan"><![CDATA[{if $statement->getObject()->clanID}Your {CLAN_LANGUAGE_SG_NOMINATIVE|language} “{$statement->getObject()->getTitle()}” was trashed or disabled.{else}A {CLAN_LANGUAGE_SG_NOMINATIVE|language} of yours was deleted.{/if}]]></item>
+		
+		<item name="wcf.jcoins.statement.category.de.wcflabs.jcoins.clan"><![CDATA[Clan Management]]></item>
+	</category>
+</language>
